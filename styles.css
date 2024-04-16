@@ -11,13 +11,15 @@
 }
 #verification_subtext {
 font-size: 16px;
-	color: #888;
+	color: black;
 	margin-bottom: 30px;
 }
 .code-container {
 display: flex;
-justify-content: space-between;
-	width: 200px;
+justify-content: center;
+/* flex-direction: column; */
+/* align-items: center */
+width: 100%;
 }
 .code{
 	border: 1px solid #ccc;
@@ -25,6 +27,13 @@ justify-content: space-between;
 	padding: 8px;
 	font-size: 16px;
 	text-align: center;
+	margin-right: 20px;
+/* margin-bottom: 10px; */
+height: 80px;
+	width: 40px;
+}
+.code:last-child {
+margin-right: 0;
 }
 .code:focus {
 	outline: 2px solid #007bff;
